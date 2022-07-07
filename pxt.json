@@ -1,0 +1,39 @@
+{
+    "name": "atrin - Copy",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "arcade-minimap": "github:microsoft/arcade-minimap#v0.6.1",
+        "pxt-button-combos": "github:jwunderl/pxt-button-combos#v0.0.24",
+        "controller": "*",
+        "corgio": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.1",
+        "mouse": "*",
+        "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0",
+        "darts": "*",
+        "radio-broadcast": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.8.29",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
